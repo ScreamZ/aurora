@@ -1,0 +1,19 @@
+{
+  "name": "@screamz/aurora",
+  "version": "0.0.4",
+  "description": "A set of configs and rules for Typescript projects.",
+  "main": "prettier-config.json",
+  "author": "Andréas HANSS <andreas.hanss67@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "dependencies": {
+    "tslint": "^5.20.1",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-plugin-prettier": "^2.1.0",
+    "tslint-react": "^4.1.0",
+    "tslint-react-hooks": "^2.2.1"
+  }
+}
