@@ -1,5 +1,5 @@
 {
   "jsxBracketSameLine": true,
   "trailingComma": "all",
-  "printWidth": 140
+  "printWidth": 80
 }
