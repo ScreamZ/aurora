@@ -1,6 +1,6 @@
 {
   "name": "@screamz/aurora",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "A set of configs and rules for Typescript projects.",
   "main": "prettier-config.json",
   "author": "Andréas HANSS <andreas.hanss67@gmail.com>",
