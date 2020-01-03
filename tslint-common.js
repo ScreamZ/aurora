@@ -28,7 +28,13 @@ module.exports = {
       // https://palantir.github.io/tslint/rules/object-literal-sort-keys/
       options: ["match-declaration-order", "shorthand-first"]
     },
-    "file-name-casing": { options: { ".tsx": ["pascal-case", "snake-case"] } },
+    "file-name-casing": {
+      options: {
+        ".tsx": "snake-case",
+        ".ts": "snake-case",
+        ".d.ts": "snake-case"
+      }
+    },
     "prefer-switch": true, // Over 3 if / else
     "unnecessary-else": true, // https://palantir.github.io/tslint/rules/unnecessary-else/
     "newline-before-return": false // This can be useful for oneliner
